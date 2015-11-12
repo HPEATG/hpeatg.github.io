@@ -10,7 +10,7 @@ var ATGFooter = React.createClass({
   render: function () {
 	return (
 		<Footer primary={true} centered={true}>
-			© 2015 Hewlett-Packard Development Company, L.P.
+			© Copyright 2015 Hewlett Packard Enterprise Development LP
 			-
 			Built with <a href="http://grommet.io">Grommet</a>
 		</Footer>

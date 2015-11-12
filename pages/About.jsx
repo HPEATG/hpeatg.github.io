@@ -21,7 +21,7 @@ var Index = React.createClass({
 					<Profile hash='c3828485c6efb73f2dac777aeb791e8d'
 						name='Brian Aker'
 						title='Fellow'
-						description="Brian Aker, an HP Fellow, is the leader of the ATG. He's known for his
+						description="Brian Aker, an HPE Fellow, is the leader of the ATG. He's known for his
 								work in cloud computing, MySQL, Memcached, Gearman, Drizzle, and more. He's
 								given keynote speeches at OSCON, DrupalCon, and the International PHP Conference,
 								among others."
@@ -81,7 +81,7 @@ var Index = React.createClass({
 								numerous examples including databases, load balancing, DNS, and others. He's
 								a speaker, author, and longtime open source contributor. Patrick is currently
 								interested in the next generation of cloud platforms using containers." />
-						
+
 					<Profile hash='b684adde85ce381ebaf7b99858f303e1'
 						name='Yazz Atlas'
 						title='Principal Engineer'

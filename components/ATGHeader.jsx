@@ -14,7 +14,7 @@ var ATGHeader = React.createClass({
 	return (
 		<Header primary={true} fixed={false} float={false} large={true} flush={false}>
 			<div itemProp='name' className='atg-wrapper'>
-				<span className="logo">HP </span>
+				<span className="logo">Hewlett Packard Enterprise </span>
 				<Title>
 					<Link to="home">
 						Advanced Technology Group

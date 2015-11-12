@@ -17,18 +17,18 @@ var Index = React.createClass({
 				<ATGHeader />
 
 				<Section className="atg-mission">
-					<div itemProp="description">HP's ATG for Open Source and Cloud embraces a vision two steps ahead of today's solutions.
-					We use this vision to drive product adoption and incubate technolgies. Through Open Source
-					initiatives we foster collaboration across HP and beyond.</div>
+					<div itemProp="description">HPE's ATG for Open Source, Cloud, and Software embraces a vision
+					two steps ahead of today's solutions. We use this vision to drive product adoption and incubate
+					technologies. Through Open Source initiatives we foster collaboration across HPE and beyond.</div>
 				</Section>
 
 				<Section align='center' className='atg-projects'>
 					<h2>Projects</h2>
 					<div className="atg-projects-subtitle">
 						Some of the projects we work on are open source and we can talk about them. The following is a list containing some of these
-						projects. Note that with most projects there are correlating ideas being fleshed out. 
+						projects. Note that with most projects there are correlating ideas being fleshed out.
 					</div>
-					
+
 					<Project
 						title='Debian Docker Host'
 						description="When applications are being run in Docker containers the dependencies for the container are managed
@@ -41,7 +41,7 @@ var Index = React.createClass({
 						title='IPv6 Tunneling over IPv4 Networks'
 						description="IPv6 is a solution for numerous networking issues. As networks migrate from IPv4 to IPv6 there is still
 						significant use of IPv4. Most notably with the global web. If we're, for example, attempting to use IPv6 for networking
-						within our Docker cluster we may want those containers to interact with IPv4 networks. 
+						within our Docker cluster we may want those containers to interact with IPv4 networks.
 						<a href='https://egustafson.github.io/ipv6-tunneling.html'>We explored ways to bridge these protocols</a>." />
 
 					<Project
