@@ -6,7 +6,7 @@ var Header = require('grommet/components/Header')
 var Title = require('grommet/components/Title')
 var Menu = require('grommet/components/Menu')
 
-require('../assets/hp-logo-print.png')
+require('../assets/logo.png')
 
 var ATGHeader = React.createClass({
 

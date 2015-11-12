@@ -9,10 +9,9 @@ var About = require('./pages/About.jsx')
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin')
 
 var coreStyles = require('./bower_components/grommet/css/grommet.min.css')
-var themeStyles = require('./bower_components/grommet/css/grommet-hpinc.css')
+var themeStyles = require('./bower_components/grommet/css/grommet-hpe.min.css')
 var siteStyles = require('./assets/styles.scss')
 
-var pngIco = require('./favicon.png')
 var ico = require('./favicon.ico')
 require('./robots.txt')
 
@@ -28,7 +27,6 @@ var ATGRouter = React.createClass({
           <link href={themeStyles} rel="stylesheet" />
           <link href={siteStyles} rel="stylesheet" />
           <link href={ico} rel="shortcut icon" />
-          <link href={pngIco} rel="apple-touch-icon" />
           <meta keywords="HP, Hewlett-Packard, ATG, Advanced Technology Group" />
           <meta description="The HP ATG drives the next generation of cloud and open source solutions." />
         </head>
@@ -62,4 +60,3 @@ module.exports = function render (locals, callback) {
     callback(null, '<!DOCTYPE html>' + html)
   })
 }
-

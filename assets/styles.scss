@@ -1,3 +1,7 @@
+a, a:visited {
+    color: #008565;
+}
+
 .atg-wrapper {
   display: -webkit-flex;
   display: flex;
@@ -6,17 +10,21 @@
 }
 
 .header--primary span.logo {
-  width: 50px;
-  padding-top: 50px;
+  width: 100px;
+  padding-top: 42px;
   height: 0;
   overflow: hidden;
   display: block;
   flex: 0 0 auto;
-  background: url(/assets/hp-logo-print.png);
-  background-size: 50px 50px;
+  background: url(/assets/logo.png);
+  background-size: 100px 42px;
   background-repeat: no-repeat;
   line-height: inherit;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.header--primary .title a {
+    color: #333;
 }
 
 .atg-mission {
@@ -86,7 +94,7 @@
         color: #ccc;
       }
       a:hover, a:active {
-        color: #2883d7
+        color: #008565
       }
     }
   }
@@ -122,6 +130,6 @@
 @media screen and (min-width: 45em) {
   .tiles--flush > .tile {
     -webkit-flex-grow: 1;
-    flex-grow: 1; 
-  } 
+    flex-grow: 1;
+  }
 }
