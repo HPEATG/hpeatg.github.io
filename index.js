@@ -27,7 +27,7 @@ var ATGRouter = React.createClass({
           <link href={themeStyles} rel="stylesheet" />
           <link href={siteStyles} rel="stylesheet" />
           <link href={ico} rel="shortcut icon" />
-          <meta keywords="HP, Hewlett-Packard, ATG, Advanced Technology Group" />
+          <meta keywords="HPE, Hewlett Packard Enterprise, HP, Hewlett-Packard, ATG, Advanced Technology Group" />
           <meta description="The HP ATG drives the next generation of cloud and open source solutions." />
         </head>
         <body>
