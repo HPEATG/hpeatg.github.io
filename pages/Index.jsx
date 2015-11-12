@@ -74,6 +74,17 @@ var Index = React.createClass({
 
 					<Tiles flush={true}>
 						<Tile>
+							<Slideshare slideshare='55055756' />
+						</Tile>
+						<Tile>
+							<Slideshare slideshare='54312958' />
+						</Tile>
+						<Tile>
+							<Slideshare slideshare='50866732' />
+						</Tile>
+					</Tiles>
+					<Tiles flush={true}>
+						<Tile>
 							<Slideshare slideshare='48196181' />
 						</Tile>
 						<Tile>

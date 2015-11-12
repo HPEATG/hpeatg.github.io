@@ -1,9 +1,8 @@
 
 module.exports = {
-  title: 'HP Advanced Technology Group',
+  title: 'HPE Advanced Technology Group',
   routes: [
     '/',
     '/about'
   ]
 }
-
