@@ -23,8 +23,11 @@ var ATGRouter = React.createClass({
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
           <link href={siteStyles} rel="stylesheet" />
           <link href={ico} rel="shortcut icon" />
-          <meta keywords="HPE, Hewlett Packard Enterprise, HP, Hewlett-Packard, ATG, Advanced Technology Group" />
-          <meta description="The HP ATG drives the next generation of cloud and open source solutions." />
+          <meta name="description" itemprop="description"
+            content="The HP ATG drives the next generation of cloud and open source solutions." />
+          <meta name="keywords" itemprop="keywords"
+            content="HPE, Hewlett Packard Enterprise, HP, Hewlett-Packard, ATG, Advanced Technology Group." />
+          <meta itemprop="image" content="/assets/logo.png" />
         </head>
         <body>
           <App className='atg'>
