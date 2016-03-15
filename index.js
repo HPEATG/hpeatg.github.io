@@ -8,11 +8,9 @@ var Index = require('./pages/Index.jsx')
 var About = require('./pages/About.jsx')
 var IntlMixin = require('grommet/mixins/GrommetIntlMixin')
 
-var coreStyles = require('./bower_components/grommet/css/grommet.min.css')
-var themeStyles = require('./bower_components/grommet/css/grommet-hpe.min.css')
 var siteStyles = require('./assets/styles.scss')
 
-var ico = require('./favicon.ico')
+var ico = require('./assets/favicon.ico')
 require('./robots.txt')
 
 var ATGRouter = React.createClass({
@@ -23,8 +21,6 @@ var ATGRouter = React.createClass({
         <head>
           <title>{this.props.title}</title>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-          <link href={coreStyles} rel="stylesheet" />
-          <link href={themeStyles} rel="stylesheet" />
           <link href={siteStyles} rel="stylesheet" />
           <link href={ico} rel="shortcut icon" />
           <meta keywords="HPE, Hewlett Packard Enterprise, HP, Hewlett-Packard, ATG, Advanced Technology Group" />
@@ -48,9 +44,8 @@ var Routes = (
 );
 
 if (typeof document !== 'undefined') {
-  var initialProps = JSON.parse(document.getElementById('initial-props').innerHTML)
   Router.run(Routes, Router.HistoryLocation, function (Handler) {
-    React.render(React.createElement(Handler, initialProps), document)
+    React.render(React.createElement(Handler), document)
   })
 }
 
